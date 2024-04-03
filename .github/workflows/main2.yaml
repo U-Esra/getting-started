@@ -17,4 +17,4 @@ jobs:
 
     - name: Create Azure Container Instance
       run: |
-        az container create --resource-group RGR-ACR --name containeres --registry-username registryvanes --image registryvanes.azurecr.io/getting-started:v1.0 --cpu 1 --memory 1 --os-type Linux
+        az container create --resource-group RGR-ACR --name containeres --registry-username registryvanes --registry-password 32tLVS1YrrowEzt1LLPdqx2hB7mw0QkwTb3gTeixgp+ACRC3BU36 --image registryvanes.azurecr.io/getting-started:v1.0 --cpu 1 --memory 1 --os-type Linux
